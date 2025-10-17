@@ -3,6 +3,7 @@ import AppHome from "./AppHome";
 import RecipeDetails from "./RecipeDetails";
 import Favorites from "./Favorites";
 import Navbar from "./Navbar";
+import AboutDeveloper from "./AboutDeveloper";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Route path="/" element={<AppHome />} />
         <Route path="/recipe/:id" element={<RecipeDetails />} />
         <Route path="/favorites" element={<Favorites />} />
+        <Route path="/about" element={<AboutDeveloper />} />
+
       </Routes>
     </Router>
   );

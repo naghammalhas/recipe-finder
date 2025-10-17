@@ -32,6 +32,8 @@ function Navbar() {
         <Link to="/favorites" className={animate ? "fav-link bounce" : "fav-link"}>
           ❤️ Favorites ({favCount})
         </Link>
+        <Link to="/about">👩🏻 About Developer</Link>
+
       </div>
     </nav>
   );
